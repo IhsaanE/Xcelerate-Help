@@ -1,0 +1,44 @@
+{
+  "name": "nextjs-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sample website built with Next.js using Prismic headless CMS",
+  "author": {
+    "name": "Raul Gonzalez",
+    "email": "raul.gonzalez@prismic.io"
+  },
+  "dependencies": {
+    "browserfs": "^1.4.3",
+    "browserify-fs": "^1.0.0",
+    "connect": "^3.7.0",
+    "import": "0.0.6",
+    "next": "^9.4.4",
+    "prismic-javascript": "3.0.1",
+    "prismic-reactjs": "^1.3.1",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.14.0",
+    "react-file-reader": "^1.1.4",
+    "react-flip-toolkit": "^7.0.13",
+    "react-router-dom": "^5.2.0",
+    "react-sticky": "^6.0.3",
+    "react-sticky-el": "^2.0.5",
+    "react-transition-group": "^4.4.1",
+    "write-file-p": "^1.0.8"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prismicio/nextjs-website"
+  },
+  "license": "Apache-2.0",
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}
